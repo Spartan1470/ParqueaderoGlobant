@@ -22,6 +22,6 @@ rutas.put('/api/v1/parqueadero/celda/:id/', administrador.editar)
 //Rutas vehiculos
 
 rutas.get('/api/v1/parqueadero/vehiculos/', administrador.buscarTodos)
-rutas.get('/api/v1/parqueadero/vehiculo/:id/', administrador.buscarPorId)
+rutas.get('/api/v1/parqueadero/vehiculo/:id/Matteo', administrador.buscarPorId)
 rutas.post('/api/v1/parqueadero/vehiculo/',administrador.insertar)
 rutas.put('/api/v1/parqueadero/vehiculo/:id/', administrador.editar)
